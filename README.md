@@ -2,7 +2,7 @@
 
 ---
 
-Go here: https://jsoverson.github.io/shift-query-demo
+Go here: https://jsoverson.github.io/shift-query-demo/
 
-See shift-query here : https://github.com/jsoverson/shift-query
+See shift-query here : https://github.com/jsoverson/shift-query/
 

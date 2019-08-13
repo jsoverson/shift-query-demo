@@ -1,0 +1,62 @@
+html, body {
+	margin:0;
+	padding:0;
+}
+
+.CodeMirror {
+  height: auto;
+}
+
+.cm-nodeFound {
+  background-color: hsla(240, 100%, 56%, 0.4);
+}
+
+.cm-nodeFound-0 {
+	background-color: hsla(200, 100%, 50%, 0.4); 
+}
+.cm-nodeFound-1 {
+	background-color: hsla(180, 100%, 50%, 0.4); 
+}
+.cm-nodeFound-2 {
+	background-color: hsla(160, 100%, 50%, 0.4); 
+}
+.cm-nodeFound-3 {
+	background-color: hsla(140, 100%, 50%, 0.4); 
+}
+.cm-nodeFound-4 {
+	background-color: hsla(120, 100%, 50%, 0.4); 
+}
+.cm-nodeFound-5 {
+	background-color: hsla(100, 100%, 50%, 0.4); 
+}
+.cm-nodeFound-6 {
+	background-color: hsla(80, 100%, 50%, 0.4); 
+}
+.cm-nodeFound-7 {
+	background-color: hsla(60, 100%, 50%, 0.4); 
+}
+.cm-nodeFound-8 {
+	background-color: hsla(40, 100%, 50%, 0.4); 
+}
+.cm-nodeFound-9 {
+	background-color: hsla(20, 100%, 50%, 0.4); 
+}
+.cm-nodeFound-10 {
+	background-color: hsla(0, 100%, 50%, 0.4); 
+}
+.cm-nodeFound-11 {
+	background-color: hsla(220, 100%, 50%, 0.4); 
+}
+.cm-nodeFound-12 {
+	background-color: hsla(240, 100%, 50%, 0.4); 
+}
+.cm-nodeFound-13 {
+	background-color: hsla(250, 100%, 50%, 0.7); 
+}
+.cm-nodeFound-14 {
+	background-color: hsla(0, 100%, 80%, 0.7); 
+}
+.cm-nodeFound-15 {
+	background-color: hsla(20, 100%, 80%, 0.7); 
+}
+

@@ -16,7 +16,9 @@
     "monaco-editor": "^0.17.1",
     "shift-parser": "^7.0.0",
     "shift-query": "^1.0.0",
-    "sirv-cli": "^0.4.4"
+    "sirv-cli": "^0.4.4",
+    "shift-ast": "^6.0.0",
+    "shift-codegen": "^6.0.0"
   },
   "dependencies": {
   },
@@ -27,6 +29,6 @@
     "autobuild": "rollup -c -w",
     "dev": "run-p start:dev autobuild",
     "start": "sirv docs --single",
-    "start:dev": "sirv docs --single --dev"
+    "start:dev": "sirv --host 0.0.0.0 docs --single --dev"
   }
 }

@@ -9,12 +9,7 @@
     color: black;
   }
   .app {
-    display: grid;
-    grid-template-columns: 1fr;
-	  grid-template-rows: repeat(3, auto);
-    grid-column-gap: 0px;
-		grid-row-gap: 0px;
-		height:100vh;
+		height:100%;
   }
   header {
     height:3em;
@@ -24,7 +19,14 @@
   }
   .content {
 		height:calc(100vh - 100px);
-	}
+  }
+
+@media (max-width: 800px) { 
+  h1 {
+    font-size:1.2em;
+  }
+}
+
 </style>
 
 <div class="app">

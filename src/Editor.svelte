@@ -4,9 +4,6 @@
   import { highlightAll, removeHighlights } from "./highlight.js";
   import codegen from "shift-codegen";
   import defaultSample from "./default-sample.js";
-  import Shift from "shift-ast";
-
-  const shiftTypes = Object.keys(Shift);
 
   import "codemirror/mode/javascript/javascript";
   import "../node_modules/codemirror/lib/codemirror.css";
@@ -168,6 +165,17 @@
     text-overflow: ellipsis;
     max-width: 50em;
   }
+  .json {
+    display:none;
+    overflow-y:scroll;
+    max-height:400px;
+    font-family:monospace;
+    word-wrap: none;
+  }
+
+  .selected .json {
+    display: block;
+  }
 </style>
 
 <form on:submit|preventDefault={go}>
@@ -197,6 +205,7 @@
               ({result.loc.start.line}:{result.loc.start.column}):{result.node.type}
             </h1>
             <div class="source">{formatCode(result.node)}</div>
+            <pre class="json">{JSON.stringify(result.node,null,2)}</pre>
           </li>
         {/each}
       </ol>
